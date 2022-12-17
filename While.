@@ -1,0 +1,27 @@
+while True:
+    lanchonete = "500$"
+    
+    açaiteria = "900$"
+
+    uber = "200$"
+
+    pationorte = "1200$"
+
+    pergunta = input ("Diga o nome do estabelecimento desejado ")
+
+    if pergunta == "lanchonete":
+       print (lanchonete)
+
+    elif pergunta == "açaiteria":
+       print (açaiteria)
+
+    elif pergunta == "uber":
+       print (uber)
+
+    elif pergunta == "pationorte":
+       print ('pationorte')
+
+    else:
+       print ("Este estabelecimento não esta cadastrado no nosso banco de dados")
+
+       
