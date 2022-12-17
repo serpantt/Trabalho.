@@ -1,0 +1,20 @@
+ #O codigo le três valores para os lados de um triângulo e veverifica se o triângulo é equilátero (todos lados iguais), isósceles (dois lados iguais) ou 
+#escaleno(todos lados diferentes). 
+
+print ("Informe os valores dos lados do triangulo, para que o tipo do triangulo seja informado")
+lado_1 = int(input("Digite o valor do lado do triangulo: "))
+lado_2 = int(input("Digite o valor do lado do triangulo: "))
+lado_3 = int(input("Digite o valor do lado do triangulo: "))
+
+if (lado_1 == lado_2) and (lado_2 == lado_3) and (lado_1 == lado_3):
+      print("Esse triangulo é esquilátero")
+
+
+else:
+  if (lado_1 != lado_2) and (lado_2 != lado_3) and (lado_1 != lado_3):
+    print("Esse triangulo é escaleno")
+  
+  else:
+   if(lado_1 == lado_2) or (lado_2 == lado_3) or (lado_1 == lado_3):
+      print("Esse triangulo é isóceles")
+      

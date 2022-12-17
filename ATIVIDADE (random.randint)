@@ -1,0 +1,17 @@
+#DESCUBRA O NUEMRO GERADO ALEATORIAMENTE ENTRE 1 E 10
+#SEU NUMEERO ESTA SENDO ELEVADO NA BASE 10
+
+import random
+
+numero = random.randint(1, 10)
+numero2 = 10 ** numero
+print (numero2)
+numero3= int(input("Qual seu numero?:"))
+
+if  numero3 == numero:
+    print ("Parabens voce acertou!")
+
+elif numero3 != numero:
+    print ("Voce errou")
+
+print ("Acabou! Jogue novamente")
